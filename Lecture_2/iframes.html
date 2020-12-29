@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      
+    <h3>Contents</h3>
+    <p>Can open many different pages by setting target of ancor tag to name of iframes</p>
+    <ul>
+        <li><a  target="frame3" href="./inner_html.html">Inner Html</a></li>
+        <li><a  target="frame3" href="./links.html">Links Html</a></li>
+
+    </ul>
+    <h1>I Frames</h1>
+    <h4>Used to attach html pages inside html pages used by Medium to add github code snippet</h4>
+    
+    <!-- if we put iframe inside iframe it will open one time and then it will stop.(Recursion) -->
+    <iframe src="./iframes.html" frameborder="1" width="400" height="400"></iframe>
+
+    <iframe src="https://www.example.com" frameborder="1" width="400" height="400"></iframe>
+
+    <iframe name="frame3" src="./links.html" frameborder="1" width="400" height="400"></iframe>
+
+</body>
+</html>
